@@ -1,0 +1,61 @@
+[
+    {
+      "name": "Buddy",
+      "species": "Dog",
+      "breed": "Golden Retriever",
+      "attributes": {
+        "active": true,
+        "caring": true,
+        "social": true,
+        "responsible": false,
+        "loyal": true,
+        "protective": true
+      }
+    },
+    {
+      "name": "Whiskers",
+      "species": "Cat",
+      "breed": "Siamese",
+      "attributes": {
+        "active": false,
+        "caring": true,
+        "social": true,
+        "responsible": false,
+        "loyal": false,
+        "protective": false
+      }
+    },
+    {
+      "name": "Splash",
+      "species": "Fish",
+      "breed": "Goldfish",
+      "attributes": {
+        "observant": true,
+        "relaxed": true,
+        "calm": true,
+        "introverted": true
+      }
+    },
+    {
+      "name": "Ruby",
+      "species": "Bird",
+      "breed": "Parakeet",
+      "attributes": {
+        "active": true,
+        "social": true,
+        "caring": true
+      }
+    },
+    {
+      "name": "Spike",
+      "species": "Iguana",
+      "breed": "Green Iguana",
+      "attributes": {
+        "observant": true,
+        "relaxed": true,
+        "calm": true,
+        "introverted": true
+      }
+    }
+  ]
+  
