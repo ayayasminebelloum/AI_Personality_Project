@@ -1,61 +1,210 @@
 [
-    {
-      "name": "Buddy",
-      "species": "Dog",
-      "breed": "Golden Retriever",
-      "attributes": {
-        "active": true,
-        "caring": true,
-        "social": true,
-        "responsible": false,
-        "loyal": true,
-        "protective": true
-      }
-    },
-    {
-      "name": "Whiskers",
-      "species": "Cat",
-      "breed": "Siamese",
-      "attributes": {
-        "active": false,
-        "caring": true,
-        "social": true,
-        "responsible": false,
-        "loyal": false,
-        "protective": false
-      }
-    },
-    {
-      "name": "Splash",
-      "species": "Fish",
-      "breed": "Goldfish",
-      "attributes": {
-        "observant": true,
-        "relaxed": true,
-        "calm": true,
-        "introverted": true
-      }
-    },
-    {
-      "name": "Ruby",
-      "species": "Bird",
-      "breed": "Parakeet",
-      "attributes": {
-        "active": true,
-        "social": true,
-        "caring": true
-      }
-    },
-    {
-      "name": "Spike",
-      "species": "Iguana",
-      "breed": "Green Iguana",
-      "attributes": {
-        "observant": true,
-        "relaxed": true,
-        "calm": true,
-        "introverted": true
-      }
+  {
+    "name": "Buddy",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "attributes": {
+      "active": true,
+      "caring": true,
+      "social": true,
+      "responsible": false,
+      "loyal": true,
+      "protective": true,
+      "size": "Large",
+      "temperament": ["Friendly", "Active", "Outgoing"],
+      "energyLevel": "High",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "Moderate",
+      "grooming": "Low",
+      "coatColor": "Golden",
+      "age": "3 years",
+      "veterinarySpecialNeeds": false
     }
-  ]
-  
+  },
+  {
+    "name": "Coco",
+    "species": "Dog",
+    "breed": "French Bulldog",
+    "attributes": {
+      "active": false,
+      "caring": true,
+      "social": true,
+      "responsible": true,
+      "loyal": true,
+      "protective": false,
+      "size": "Small",
+      "temperament": ["Playful", "Alert", "Adaptable"],
+      "energyLevel": "Medium",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "Low",
+      "grooming": "Low",
+      "coatColor": "Brindle",
+      "age": "4 years",
+      "veterinarySpecialNeeds": true
+    }
+  },
+  {
+    "name": "Rex",
+    "species": "Dog",
+    "breed": "German Shepherd",
+    "attributes": {
+      "active": true,
+      "caring": false,
+      "social": false,
+      "responsible": true,
+      "loyal": true,
+      "protective": true,
+      "size": "Large",
+      "temperament": ["Confident", "Courageous", "Intelligent"],
+      "energyLevel": "High",
+      "goodWithChildren": true,
+      "goodWithOtherPets": false,
+      "shedding": "High",
+      "grooming": "Medium",
+      "coatColor": "Black and Tan",
+      "age": "5 years",
+      "veterinarySpecialNeeds": false
+    }
+  },
+  {
+    "name": "Bella",
+    "species": "Dog",
+    "breed": "Beagle",
+    "attributes": {
+      "active": true,
+      "caring": true,
+      "social": true,
+      "responsible": false,
+      "loyal": true,
+      "protective": false,
+      "size": "Medium",
+      "temperament": ["Curious", "Friendly", "Merry"],
+      "energyLevel": "High",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "Moderate",
+      "grooming": "Low",
+      "coatColor": "Tri-color",
+      "age": "2 years",
+      "veterinarySpecialNeeds": true
+    }
+  },
+  {
+    "name": "Luna",
+    "species": "Dog",
+    "breed": "Siberian Husky",
+    "attributes": {
+      "active": true,
+      "caring": false,
+      "social": true,
+      "responsible": false,
+      "loyal": true,
+      "protective": false,
+      "size": "Large",
+      "temperament": ["Friendly", "Energetic", "Outgoing"],
+      "energyLevel": "High",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "High",
+      "grooming": "Medium",
+      "coatColor": "Black and White",
+      "age": "2 years",
+      "veterinarySpecialNeeds": false
+    }
+  },
+  {
+    "name": "Charlie",
+    "species": "Dog",
+    "breed": "Dachshund",
+    "attributes": {
+      "active": true,
+      "caring": true,
+      "social": true,
+      "responsible": false,
+      "loyal": true,
+      "protective": true,
+      "size": "Small",
+      "temperament": ["Playful", "Curious", "Brave"],
+      "energyLevel": "Medium",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "Low",
+      "grooming": "Low",
+      "coatColor": "Brown",
+      "age": "3 years",
+      "veterinarySpecialNeeds": false
+    }
+  },
+  {
+    "name": "Daisy",
+    "species": "Dog",
+    "breed": "Border Collie",
+    "attributes": {
+      "active": true,
+      "caring": false,
+      "social": true,
+      "responsible": true,
+      "loyal": true,
+      "protective": true,
+      "size": "Medium",
+      "temperament": ["Intelligent", "Energetic", "Responsive"],
+      "energyLevel": "High",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "Moderate",
+      "grooming": "Medium",
+      "coatColor": "Black and White",
+      "age": "1 year",
+      "veterinarySpecialNeeds": true
+    }
+  },
+  {
+    "name": "Bailey",
+    "species": "Dog",
+    "breed": "Pug",
+    "attributes": {
+      "active": false,
+      "caring": true,
+      "social": true,
+      "responsible": false,
+      "loyal": true,
+      "protective": false,
+      "size": "Small",
+      "temperament": ["Sociable", "Playful", "Calm"],
+      "energyLevel": "Low",
+      "goodWithChildren": true,
+      "goodWithOtherPets": true,
+      "shedding": "High",
+      "grooming": "Low",
+      "coatColor": "Fawn",
+      "age": "4 years",
+      "veterinarySpecialNeeds": false
+    }
+  },
+  {
+    "name": "Molly",
+    "species": "Dog",
+    "breed": "Rottweiler",
+    "attributes": {
+      "active": true,
+      "caring": false,
+      "social": false,
+      "responsible": true,
+      "loyal": true,
+      "protective": true,
+      "size": "Large",
+      "temperament": ["Confident", "Fearless", "Good-natured"],
+      "energyLevel": "Medium",
+      "goodWithChildren": true,
+      "goodWithOtherPets": false,
+      "shedding": "Moderate",
+      "grooming": "Low",
+      "coatColor": "Black and Tan",
+      "age": "5 years",
+      "veterinarySpecialNeeds": false
+    }
+  }
+]
+
